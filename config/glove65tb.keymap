@@ -87,7 +87,7 @@
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
         };
 
-        number_layer {
+        operation_layer {
             label = "NUM";
             bindings = <
 &trans  &trans    &trans  &trans      &trans     &trans                  &trans         &trans          &trans            &trans         &trans        &trans
@@ -98,7 +98,7 @@
             >;
         };
 
-        symbol_layer {
+        system_layer {
             label = "SYM";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
@@ -125,10 +125,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans  &trans
             >;
         };
