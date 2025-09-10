@@ -64,7 +64,7 @@ layers:
   - {t: A, h: SYM}
   - ENTER
   - LANGUAGE 1
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   NUM:
   - {t: ▽, type: trans}
