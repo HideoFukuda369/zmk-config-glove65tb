@@ -40,7 +40,7 @@ layers:
   - K
   - L
   - ;
-  - RETURN
+  - ':'
   - LEFT SHIFT
   - Z
   - X
