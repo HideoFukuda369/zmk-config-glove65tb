@@ -22,7 +22,7 @@
 
 &mmv {
     delay-ms = <20>;
-    trigger-period-ms = <5>;
+    trigger-period-ms = <10>;  // BLE接続間隔との整合性向上
     time-to-max-speed-ms = <100>;
     acceleration-exponent = <2>;
 };
