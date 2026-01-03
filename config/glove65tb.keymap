@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 50
 
 #include <behaviors/rgbled_widget.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
@@ -29,9 +29,9 @@
 
 &msc {
     delay-ms = <0>;              // 即座に反応
-    trigger-period-ms = <10>;     // 滑らかなスクロール
-    time-to-max-speed-ms = <500>; // 緩やかな加速
-    acceleration-exponent = <1>; // 軽い加速を追加
+    trigger-period-ms = <12>;     // より滑らかなスクロール
+    time-to-max-speed-ms = <800>; // 非常に緩やかな加速
+    acceleration-exponent = <0>; // 加速なし（リニア）
 };
 
 &lt {
