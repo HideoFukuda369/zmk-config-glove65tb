@@ -29,9 +29,9 @@
 
 &msc {
     delay-ms = <0>;              // 即座に反応
-    trigger-period-ms = <12>;     // より滑らかなスクロール
+    trigger-period-ms = <8>;      // より高頻度な更新でスムーズに
     time-to-max-speed-ms = <800>; // 非常に緩やかな加速
-    acceleration-exponent = <0>; // 加速なし（リニア）
+    acceleration-exponent = <0>;  // 加速なし（リニア）
 };
 
 &lt {
