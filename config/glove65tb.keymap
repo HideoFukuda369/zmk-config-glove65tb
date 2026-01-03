@@ -21,10 +21,10 @@
 #define WIN2 7
 
 &mmv {
-    delay-ms = <20>;
+    delay-ms = <0>;              // 即座に反応
     trigger-period-ms = <10>;  // BLE接続間隔との整合性向上
-    time-to-max-speed-ms = <100>;
-    acceleration-exponent = <2>;
+    time-to-max-speed-ms = <300>;
+    acceleration-exponent = <3>;
 };
 
 &msc {
