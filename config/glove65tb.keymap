@@ -29,8 +29,8 @@
 
 &msc {
     delay-ms = <0>;              // 即座に反応
-    trigger-period-ms = <5>;     // 滑らかなスクロール
-    time-to-max-speed-ms = <300>; // 緩やかな加速
+    trigger-period-ms = <10>;     // 滑らかなスクロール
+    time-to-max-speed-ms = <500>; // 緩やかな加速
     acceleration-exponent = <1>; // 軽い加速を追加
 };
 
