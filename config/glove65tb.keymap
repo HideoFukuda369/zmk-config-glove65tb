@@ -22,16 +22,16 @@
 
 &mmv {
     delay-ms = <0>;              // 即座に反応
-    trigger-period-ms = <10>;  // BLE接続間隔との整合性向上
-    time-to-max-speed-ms = <300>;
+    trigger-period-ms = <5>;  // BLE接続間隔との整合性向上
+    time-to-max-speed-ms = <100>;
     acceleration-exponent = <2>;
 };
 
 &msc {
     delay-ms = <0>;               // 即座に反応
-    trigger-period-ms = <1>;      // 超高頻度の更新（333Hz）でカクつき解消
-    time-to-max-speed-ms = <600>; // より緩やかな加速
-    acceleration-exponent = <2>;  // 軽い加速で自然な操作感
+    trigger-period-ms = <3>;      // 超高頻度の更新（333Hz）でカクつき解消
+    time-to-max-speed-ms = <100>; // より緩やかな加速
+    acceleration-exponent = <0>;  // 軽い加速で自然な操作感
 };
 
 &lt {
