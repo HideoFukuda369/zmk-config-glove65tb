@@ -28,10 +28,10 @@
 };
 
 &msc {
-    delay-ms = <0>;              // 即座に反応
-    trigger-period-ms = <8>;      // より高頻度な更新でスムーズに
-    time-to-max-speed-ms = <800>; // 非常に緩やかな加速
-    acceleration-exponent = <0>;  // 加速なし（リニア）
+    delay-ms = <0>;               // 即座に反応
+    trigger-period-ms = <5>;      // 最高頻度の更新（200Hz）
+    time-to-max-speed-ms = <1000>; // 非常に緩やかな加速
+    acceleration-exponent = <1>;  // 軽い加速で自然な操作感
 };
 
 &lt {
